@@ -23,7 +23,7 @@ public class UserController {
         model.addAttribute("users",users);
 
 
-        int id = 123;
+        int id = 1;
         String email = "aa@aa.a";
         User oneUser = userService.showOneUser(id,email);
         model.addAttribute("oneUser",oneUser);
