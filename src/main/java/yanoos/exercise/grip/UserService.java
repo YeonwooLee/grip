@@ -1,12 +1,12 @@
 package yanoos.exercise.grip;
 
 import org.springframework.stereotype.Component;
-
 import java.util.List;
 
 @Component
 public class UserService {
     private final UserMapper userMapper;
+
 
     public UserService(UserMapper userMapper) {
         this.userMapper = userMapper;
